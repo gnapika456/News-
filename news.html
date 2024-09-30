@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Search by Country</title>
+    <style>
+        .article {
+            border: 1px solid #ddd;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+        }
+        .article img {
+            max-width: 150px;
+            margin-right: 20px;
+        }
+        .article-content {
+            max-width: 600px;
+        }
+        .article-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <input type="text" id="countryInput" placeholder="Enter country name (e.g., 'United States', 'Canada', 'France')" />
+    <button id="searchButton">Search</button>
+    
+    <div id="news-container"></div>
+
+    <script src="news.js"></script>
+
+</body>
+</html>
